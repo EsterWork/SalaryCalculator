@@ -399,3 +399,24 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Angular specific logic
+node_modules/
+dist/
+build/
+.angular/
+.cache/
+
+# Environment files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Other Angular related files
+npm-debug.log*
+yarn-error.log*
+
+# IDEs and editor folders
+.idea/
+.vscode/
