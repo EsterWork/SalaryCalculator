@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryCalculatorApi", "SalaryCalculatorApi.csproj", "{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8706A3B-74E6-493B-90D8-679D66E4B7ED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|c:\\users\\user1\\desktop\\salarycalculatorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|c:\\users\\user1\\desktop\\salarycalculatorapi\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|solutionrelative:controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|c:\\users\\user1\\desktop\\salarycalculatorapi\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|solutionrelative:services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|c:\\users\\user1\\desktop\\salarycalculatorapi\\models\\salaryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|solutionrelative:models\\salaryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|c:\\users\\user1\\desktop\\salarycalculatorapi\\models\\salaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|solutionrelative:models\\salaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|c:\\users\\user1\\desktop\\salarycalculatorapi\\salarycalculatorapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|solutionrelative:salarycalculatorapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|c:\\users\\user1\\desktop\\salarycalculatorapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA1DFDB8-75F5-453F-A941-13A0AE6F2BF2}|SalaryCalculatorApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T23:05:39.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalaryCalculatorApi",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\SalaryCalculatorApi.csproj",
+              "RelativeDocumentMoniker": "SalaryCalculatorApi.csproj",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\SalaryCalculatorApi.csproj",
+              "RelativeToolTip": "SalaryCalculatorApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T22:43:08.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalaryService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Services\\SalaryService.cs",
+              "RelativeDocumentMoniker": "Services\\SalaryService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Services\\SalaryService.cs",
+              "RelativeToolTip": "Services\\SalaryService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:41:36.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Models\\SalaryResponse.cs",
+              "RelativeDocumentMoniker": "Models\\SalaryResponse.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Models\\SalaryResponse.cs",
+              "RelativeToolTip": "Models\\SalaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:41:40.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T18:52:36.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalaryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Models\\SalaryRequest.cs",
+              "RelativeDocumentMoniker": "Models\\SalaryRequest.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Models\\SalaryRequest.cs",
+              "RelativeToolTip": "Models\\SalaryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:40:46.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalaryController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Controllers\\SalaryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalaryController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\SalaryCalculatorApi\\Controllers\\SalaryController.cs",
+              "RelativeToolTip": "Controllers\\SalaryController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T08:57:05.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

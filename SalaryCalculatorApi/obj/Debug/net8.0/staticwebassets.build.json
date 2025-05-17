@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qp36YZ6BaTF69DOVEGvKNyLTyfEOclXCbEYyQXSCIxE=",
+  "Source": "SalaryCalculatorApi",
+  "BasePath": "_content/SalaryCalculatorApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

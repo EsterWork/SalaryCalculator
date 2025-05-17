@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SalaryCalculatorApi.Controllers.SalaryController",
+    "Method": "Calculate",
+    "RelativePath": "api/Salary/calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SalaryCalculatorApi.Models.SalaryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
