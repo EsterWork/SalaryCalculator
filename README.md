@@ -14,7 +14,7 @@
 
 ## מבנה הפרויקט
 
-salary-calculator-solution/  
+SalaryCalculator/  
 ├── SalaryCalculator.Api/  
 │   ├── Controllers/  
 │   │   └── SalaryCalculatorController.cs  
