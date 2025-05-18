@@ -1,0 +1,5 @@
+<div class="container mt-5">
+  <h1 class="mb-4">מחשבון העלאת שכר</h1>
+<app-salary-calculator (calculated)="onCalculated($event)"></app-salary-calculator>
+<app-salary-result *ngIf="result" [result]="result!"></app-salary-result>
+</div>

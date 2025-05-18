@@ -1,0 +1,76 @@
+/* הגבלת רוחב הטופס והמרכוז */
+form {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  direction: rtl;
+}
+
+/* כותרת */
+form h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* ריווח שדות */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.form-select,
+.form-control {
+  border-radius: 0.5rem;
+}
+
+button[type="submit"] {
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* רספונסיביות */
+@media (max-width: 576px) {
+  form {
+    padding: 1.5rem 1rem;
+  }
+  form h4 {
+    font-size: 1.2rem;
+  }
+}
+.styled-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #0d6efd;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.styled-checkbox:checked {
+  background-color: #0d6efd;
+}
+
+.styled-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 6px; 
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,64 @@
+<div class="container mt-5">
+  <form (ngSubmit)="onSubmit()" #salaryForm="ngForm" class="p-4 rounded shadow bg-white" style="max-width: 700px; margin: auto;">
+    <h4 class="mb-4 text-center fw-bold">מחשבון חישוב שכר</h4>
+
+    <div class="mb-3">
+      <label for="jobPercentage" class="form-label">חלקיות משרה</label>
+      <select id="jobPercentage" class="form-select" [(ngModel)]="request.jobPercentage" name="jobPercentage" required>
+        <option [ngValue]="null" disabled selected hidden>- בחר -</option>
+        <option *ngFor="let p of jobPercentages" [value]="p">{{p}}%</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="professionalLevel" class="form-label">רמה מקצועית</label>
+      <select id="professionalLevel" class="form-select" [(ngModel)]="request.professionalLevel" name="professionalLevel" required>
+         <option [ngValue]="null" disabled selected hidden>- בחר -</option>
+        <option *ngFor="let level of professionalLevels" [value]="level">{{level}}</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="managementLevel" class="form-label">רמה ניהולית</label>
+      <select id="managementLevel" class="form-select" [(ngModel)]="request.managementLevel" name="managementLevel" required>
+        <option [ngValue]="null" disabled selected hidden>- בחר -</option>
+        <option *ngFor="let level of managementLevels" [value]="level">
+          {{ level === 0 ? 'ללא' : 'רמת ניהול ' + level }}
+        </option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="yearsOfSeniority" class="form-label">סה"כ שנות וותק</label>
+      <input type="number" class="form-control" id="yearsOfSeniority" [(ngModel)]="request.yearsOfSeniority" name="yearsOfSeniority" min="0" required>
+    </div>
+
+      <div class="form-check d-flex align-items-center mb-3">
+        <label class="form-check-label ms-2 mb-0" for="eligibleByLaw">
+          זכאי לתוספת עבודה בחוק
+        </label>
+        <input
+          type="checkbox"
+          class="form-check-input styled-checkbox"
+          id="eligibleByLaw"
+          [(ngModel)]="request.eligibleByLaw"
+          name="eligibleByLaw"
+        >
+      </div>
+
+
+    <div class="mb-3" *ngIf="request.eligibleByLaw">
+      <label for="lawGroup" class="form-label">שייכות לקבוצה</label>
+      <select id="lawGroup" class="form-select" [(ngModel)]="request.lawGroup" name="lawGroup" required>
+        <option [ngValue]="null" disabled selected hidden>- בחר -</option>
+        <option *ngFor="let group of lawGroups" [value]="group">{{group}}</option>
+      </select>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary px-4" [disabled]="!salaryForm.form.valid">חשב את השכר שלי</button>
+    </div>
+  </form>
+
+  <app-salary-result *ngIf="result" [result]="result"></app-salary-result>
+</div>

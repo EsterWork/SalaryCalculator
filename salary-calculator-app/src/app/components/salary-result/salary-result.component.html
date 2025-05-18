@@ -1,0 +1,41 @@
+<div class="card mt-4 shadow-sm border-0">
+  <div class="card-header bg-primary text-white text-center">
+    <h5 class="mb-0">
+      <i class="bi bi-calculator"></i> תוצאות החישוב
+    </h5>
+  </div>
+  <ul class="list-group list-group-flush text-end">
+    <li class="list-group-item">
+      <strong>שכר יסוד לפי חלקיות משרה:</strong>
+      {{ result.baseSalary | currency:'ILS' }}
+    </li>
+    <li class="list-group-item">
+      <strong>שיעור תוספת וותק באחוזים:</strong>
+      {{ result.seniorityBonusPercent }}%
+    </li>
+    <li class="list-group-item">
+      <strong>סה"כ תוספת וותק לשכר:</strong>
+      {{ result.seniorityBonusAmount | currency:'ILS' }}
+    </li>
+    <li class="list-group-item">
+      <strong>סה"כ תוספת עבודה מתוקף מינוי בחוק:</strong>
+      {{ result.lawBonusAmount | currency:'ILS' }}
+    </li>
+    <li class="list-group-item bg-light">
+      <strong>סה"כ שכר בסיס לפני העלאה:</strong>
+      {{ result.salaryBeforeRaise | currency:'ILS' }}
+    </li>
+    <li class="list-group-item">
+      <strong>שיעור העלאת שכר באחוזים:</strong>
+      {{ result.raisePercent }}%
+    </li>
+    <li class="list-group-item">
+      <strong>סה"כ תוספת העלאת שכר:</strong>
+      {{ result.raiseAmount | currency:'ILS' }}
+    </li>
+    <li class="list-group-item bg-success text-white fw-bold">
+      <strong>סה"כ שכר בסיס לאחר העלאה:</strong>
+      {{ result.newBaseSalary | currency:'ILS' }}
+    </li>
+  </ul>
+</div>
