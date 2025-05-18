@@ -3,41 +3,62 @@
 
 תחילה יצרתי את צד השרת באמצעות ASP.NET Core, הכוללת:
 
+
 Models:
+
 SalaryRequest — מייצגת את בקשת חישוב השכר הכוללת פרמטרים כמו אחוז משרה, דרגת מקצועיות, שנות ותק ועוד.
+
 SalaryResponse — מייצגת את התוצאה של חישוב השכר עם שדות כגון שכר בסיס, בונוס ותק, בונוס ניהול ועוד.
 
 
+
 Controller:
+
 SalaryController — מנהל את נקודות הקצה של ה-API, מקבל בקשות חישוב ומחזיר את התוצאה.
 
 
 
 Service:
+
 SalaryService — מכיל את הלוגיקה העסקית לחישוב השכר בהתאם לנתוני הבקשה.
+
 
 לאחר פיתוח צד השרת, ביצעתי בדיקות באמצעות כלים Postman ו-Swagger. שלחתי בקשות JSON עם נתונים שונים, וביצעתי תיקונים במידת הצורך עד לקבלת תוצאות חישוב מדויקות.
 
+
+
 צד הלקוח - Angular 18
+
 בצד הלקוח פיתחתי את המערכת ב-Angular 18 עם מבנה מודולרי הכולל:
 
 Models:
+
 SalaryRequest — ממשק TypeScript המייצג את פרטי הבקשה הנשלחת לשרת.
+
 SalaryResponse — ממשק TypeScript המייצג את תוצאת החישוב המתקבלת מהשרת.
 
 
+
 Services:
+
 SalaryService — שירות Angular שאחראי לתקשורת עם ה-API והחזרת תוצאות החישוב.
 
 
+
 Components:
+
 SalaryCalculatorComponent — קומפוננטה שמציגה טופס קלט למשתמש, אוספת את הנתונים ושולחת אותם לשרת.
+
 SalaryResultComponent — קומפוננטה המציגה את תוצאת החישוב למשתמש בצורה מסודרת.
+
 
 
 
 תהליך העבודה והתקשורת בין הצדדים
 
-בעת שהמשתמש ממלא את הטופס ב־SalaryCalculatorComponent ולוחץ על שליחה, הנתונים נארזים כ־SalaryRequest ונשלחים לשרת דרך שירות ה־SalaryService. השרת מחשב את התוצאה ומחזיר אובייקט מסוג SalaryResponse. התוצאה מתקבלת בקומפוננטה ומוצגת ב־SalaryResultComponent. 
+בעת שהמשתמש ממלא את הטופס ב־SalaryCalculatorComponent ולוחץ על שליחה,
+הנתונים נארזים כ־SalaryRequest ונשלחים לשרת דרך שירות ה־SalaryService.
+השרת מחשב את התוצאה ומחזיר אובייקט מסוג SalaryResponse.
+התוצאה מתקבלת בקומפוננטה ומוצגת ב־SalaryResultComponent. 
 
 
